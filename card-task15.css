@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2xhcmdlc3QtZGVzZXJ0LXdvcmxkOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==);
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.card1, .card2, .card3{
+    height: 400px;
+    width: 275px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.image1, .image2, .image3{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image1{
+    background: url(https://media.istockphoto.com/id/1288385045/photo/snowcapped-k2-peak.jpg?s=612x612&w=0&k=20&c=sfA4jU8kXKZZqQiy0pHlQ4CeDR0DxCxXhtuTDEW81oo=);
+    background-size: cover;
+}
+
+.image2{
+    background: url(https://media.istockphoto.com/id/1182642195/photo/lonely-senior-old-man-sitting-on-bench-in-park.jpg?s=612x612&w=0&k=20&c=brsnA7zC42BiTmOokw1t8biBoYWM5reZ8t44iFACRjQ=);
+    background-size: cover;
+}
+
+.image3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNtYDIdmvtpKrNnW0CcmzGXMdPxFgFuxisA&s);
+    background-size: cover;
+}
+
+.smalltxt{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 13px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    font-size: 13px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.col1, .col2, .col3{
+    padding: 13px;
+    color: white;
+}
+
+hr{
+    opacity: 0.4;
+}
