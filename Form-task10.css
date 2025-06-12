@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: aliceblue;
+}
+
+.container{
+    background: white;
+    height: 520px;
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border-top: 5px solid rgb(246, 201, 53);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+i{
+    border: 1px solid black;
+    padding: 9px;
+    font-size: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+.email, .password{
+    width: 90%;
+}
+
+.fn, .ln{
+    width: 38%;
+}
+
+#user{
+    margin-left: 20px;
+}
+
+.select{
+    padding: 5px;
+    width: 100%;
+}
+
+.button{
+    padding: 8px 90px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(246, 201, 53);
+    width: 100%;
+    cursor: pointer;
+}

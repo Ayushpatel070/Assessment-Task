@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(241, 151, 165);
+}
+
+.container{
+    background: white;
+    height: 500px;
+    width: 650px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.container:hover{
+    box-shadow: 8px 8px 8px pink;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.col1, .col2{
+    height: inherit;
+    width: 275px;
+}
+
+.image{
+    background: url(https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/4331006/2018/4/17/11523970577819-WMNS-NIKE-EPIC-REACT-FLYKNIT-1221523970577581-2.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+p{
+    color: rgb(255, 172, 186);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.col{
+    color: rgb(255, 172, 186);
+    border: 1px solid rgb(255, 172, 186);
+    font-size: 13px;
+    padding: 8px;
+    transition: 0.3s ease;
+}
+
+.col:hover{
+    border: 1px solid white;
+    color: white;
+    background: rgb(255, 172, 186);
+}
+
+.price{
+    font-size: 30px;
+    color: rgb(255, 172, 186);
+}
+
+.description{
+    color: black;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 88px;
+}
+
+.button, button{
+    padding: 10px 30px;
+    width: 71%;
+    text-align: center;
+    color: white;
+    background: rgb(255, 172, 186);
+    border: none;
+    transition: 0.3s ease;
+}
+
+button{
+    width: 25%;
+    margin-left: 5px;
+}
+
+button:hover, .button:hover{
+    box-shadow: 2px 2px 2px rgb(255, 144, 163), -2px -2px 2px rgb(255, 144, 163);
+}
+
+

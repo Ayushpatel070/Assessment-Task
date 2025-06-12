@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(0, 255, 191);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.col1, .col2, .col3{
+    height: 300px;
+    width: 275px;
+    border-radius: 15px;
+    background: white;
+    transition: 0.3s ease;
+}
+
+.col1:hover, .col2:hover, .col3:hover{
+    transform: scale(1.1);
+}
+
+.green{
+    height: 100px;
+    width: 275px;
+    background-color: rgb(0, 211, 158);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image1,.image2,.image3{
+    background: url(https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?semt=ais_hybrid&w=740) ;
+    transform: translate(80px,-75px);
+    height: 110px;
+    width: 110px;
+    border: 2px solid rgb(0, 211, 158);
+    border-radius: 50%;
+    background-size:cover;
+}
+
+.image2{
+    background: url(https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg);
+    background-size:cover;
+}
+
+.image3{
+    background: url(https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fHww://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?semt=ais_hybrid&w=740);
+    background-size:cover;
+}
+
+h3{
+    margin-top: -70px;
+}
+
+h3,p,i{
+    line-height: 40px;
+}
+
+p{
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+i{
+    color: rgb(0, 211, 158);
+}
+
+.button{
+    padding: 6px 15px;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 211, 158);
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color: black;
+    color: rgb(0, 211, 158);
+}

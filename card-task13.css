@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(106, 104, 104);
+}
+
+.card{
+    background: aliceblue;
+    height: 420px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 50px auto;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.image{
+    background: url(https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/e0edadda-bfe2-43fa-beb8-5705300d4795/47f9e62c-0090-4469-87d5-227260fd0d68.png);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 15px 65px;
+}
+
+.button1{
+    color: white;
+    background: rgb(250, 69, 99);
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    transform: translate(150px, -50px);
+    transition: 0.3s ease;
+}
+
+.button1:hover{
+    box-shadow: 2px 2px 5px rgb(243, 97, 97), -2px -2px 5px rgb(243, 97, 97);
+}
+
+h2{
+    margin-top: -50px;
+    padding: 2.5px;
+}
+
+.smalltxt{
+    font-size: 10px;
+    opacity: 0.3;
+    padding: 2.5px;
+}
+
+.largetxt{
+    font-size: 12px;
+    opacity: 0.3;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    font-size: 13px;
+    margin: 25px 0px;
+}
+
+.rowtxt{
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.button2{
+    color: white;
+    background: rgb(6, 201, 201);
+    width: 200px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.button2:hover{
+    box-shadow: 2px 2px 2px rgb(23, 225, 236), -2px -2px 2px rgb(23, 225, 236);
+}
