@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="Task6-form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>GeeksforGeeks</h2>
+        <h5>Validate Input Fields in HTML Form</h5>
+
+        <form action="#">
+            <div class="input">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" placeholder="Enter your first name"
+            required
+            pattern="[a-zA-Z]+"
+            title="letters only!!!!">
+            </div>
+
+            <div class="input">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" placeholder="Enter your last name"
+            required
+            pattern="[a-zA-Z]+"
+            title="letters only!!!!">
+            </div>
+
+            <div class="input">
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" placeholder="Enter your email id"
+            required>
+            </div>
+
+            <div class="input">
+            <label for="password">Passwrod:</label>
+            <input type="password" id="password" placeholder="Create a password"
+            required>
+            </div>
+
+            <div class="input">
+            <label for="phoneno">Phone Number:</label>
+            <input type="text" id="phoneno" placeholder="Enter Mobile number"
+            required
+            title="Enter only 10 digit number!!!"
+            pattern="[0-9]{10}">
+            </div>
+
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

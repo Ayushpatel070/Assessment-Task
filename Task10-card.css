@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background: url(https://www.shutterstock.com/image-vector/abstract-game-light-out-technology-600nw-2336390223.jpg);
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.card{
+    width: 225px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.image1,.image2,.image3{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin: 20px 60px;
+    border: 5px solid rgb(210, 230, 248);
+}
+
+.image1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX02ZdFMV7RRZ2W4xRlz1UIL7lBfW_joXo7jL0w_UDoQeBrlPB8B8BGQLFzTKl-2oxL-4&usqp=CAU) ;
+    background-size:cover;
+}
+
+.image2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqDSRhFhXWDKu5KdMJxTIFz9_FAuNoyb_rg&s) ;
+    background-size:cover;
+}
+
+.image3{
+    background: url(https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/e0edadda-bfe2-43fa-beb8-5705300d4795/47f9e62c-0090-4469-87d5-227260fd0d68.png) ;
+    background-size:cover;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.button{
+    padding: 5px 25px;
+    margin: 40px 0px 10px 0px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    box-shadow: 2px 2px 5px navy, -2px -2px 5px navy;
+}
